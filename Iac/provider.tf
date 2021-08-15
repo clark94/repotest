@@ -3,7 +3,7 @@ provider "aws" {
 
 }
 
-Terraform{
+terraform{
   backend "s3"{
     bucket ="terraformtransformers"
     key="state/terraform.tfstate"
