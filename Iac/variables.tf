@@ -12,10 +12,3 @@ variable "numero_conta" {
   default = "285960587752"
 }
 
-Terraform{
-  backend "s3"{
-    bucket ="terraformtransformers"
-    key="state/terraform.tfstate"
-    region ="us-east-2"
-  }
-}
