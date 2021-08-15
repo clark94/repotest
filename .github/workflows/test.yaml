@@ -30,7 +30,6 @@ jobs:
     - name: Build Lambda package
       run: |
         sh scripts/build_lambda_package.sh
-        chmod 777 scripts/build_lambda_package.sh
     - name: IaC Apply
       env:
         COMMAND_IAC: terraform
