@@ -1,5 +1,5 @@
 variable "base_bucket_name" {
-  default = "datalake-clark-n2-test-tf"
+  default = "datalake-clark-n2-test-tf-2"
 
 }
 
